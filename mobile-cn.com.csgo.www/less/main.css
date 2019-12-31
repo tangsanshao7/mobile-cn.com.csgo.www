@@ -23,7 +23,7 @@ html {
 }
 nav {
   width: 100%;
-  height: 0.37rem;
+  height: 47px;
   position: fixed;
   top: 0;
   left: 0;
@@ -55,4 +55,63 @@ nav .home {
   right: 0.13rem;
   top: 0.1rem;
   background-size: 100% auto;
+}
+.container {
+  width: 100%;
+  padding-top: 0.37rem;
+  position: relative;
+}
+.container .lunbo_box {
+  width: 100%;
+  height: 1.8rem;
+  background: #141516;
+  position: relative;
+}
+.container .lunbo_box .swiper_head {
+  width: 100%;
+  position: relative;
+}
+.container .lunbo_box .swiper_head .swiper-wrapper {
+  width: 100%;
+  height: 1.475rem;
+  overflow: hidden;
+  visibility: hidden;
+}
+.container .lunbo_box .swiper_head .swiper-wrapper .swiper-slide {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+.container .lunbo_box .swiper_head .swiper-wrapper .swiper-slide a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container .lunbo_box .swiper_head .swiper-wrapper .swiper-slide a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.container .lunbo_box .swiper_head .swiper-wrapper .pagination {
+  width: 100%;
+  height: 0.04rem;
+  position: absolute;
+  left: 0;
+  bottom: -0.13rem;
+  text-align: center;
+  font-size: 0.06rem;
+}
+.container .lunbo_box .swiper_head .swiper-wrapper .pagination span {
+  width: 0.1rem;
+  height: 0.1rem;
+  margin: 0 0.05rem;
+  background: #353538;
+  display: inline-block;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  border-radius: 50%;
+}
+.container .lunbo_box .swiper_head .swiper-wrapper .pagination span.swiper-pagination-bullet-active {
+  width: 0.1rem;
+  background: #5d71a3;
 }
