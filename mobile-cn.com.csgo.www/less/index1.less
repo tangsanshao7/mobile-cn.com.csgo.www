@@ -62,125 +62,189 @@ nav {
   width: 100%;
   padding-top: 0.37rem;
   position: relative;
-  .lunbo_box {
+  .headerBox {
     width: 100%;
-    height: 1.8rem;
-    background: #141516;
-    position: relative;
-    .swiper_head {
-      width: 100%;
-      position: relative;
-      margin-top: 12px;
-
-      a {
-        width: 100%;
-        height: 100%;
-        display: block;
-        img {
-          width: 100%;
-          height: 100%;
-          display: block;
-        }
-      }
+    margin-top: 13px;
+    img {
+      display: block;
+      max-width: 100%;
     }
   }
-  .tob {
-    margin-top: 58px;
-    .tob-top {
+  .content {
+    .tab_newplay {
       width: 100%;
-      height: 60px;
-      display: flex;
-
+      height: 0.5rem;
+      display: box;
       li {
-        width: 100%;
-        height: 100%;
-        color: #bfc5cf;
+        float: left;
+        width: 50%;
+        height: 0.5rem;
+        color: #f3f3f5;
         text-align: center;
-        line-height: 60px;
-        font-size: 20px;
+        line-height: 0.5rem;
+        font-size: 0.13rem;
         box-flex: 1;
         position: relative;
-        background-color: #1c212b;
-        &:nth-child(1) {
-          margin-left: 0;
-        }
-        &.on {
-          background: #26354c;
-        }
-      }
-    }
-    .tob-bottom {
-      width: 100%;
-      margin-bottom: 0.175rem;
-      li {
-        width: 93.125%;
-        margin: 0 auto;
-        height: 0.85rem;
-        border-bottom: 1px solid #a8a8a8;
-        position: relative;
-        box-sizing: border-box;
+        background: #222836;
         a {
           display: block;
-          .news_view {
-            width: 102px;
-            height: 61px;
-            position: absolute;
-            left: 0;
-            top: 0.21rem;
+          color: #f3f3f5;
+          span {
+            width: 48px;
+            height: 48px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 24px;
           }
-          .news_cont {
-            float: right;
-            width: 446px;
-            padding-top: 0.22rem;
-            .news_cont_t {
-              font-size: 24px;
-              color: #526b94;
-              line-height: 1.5;
-              width: 100%;
-              overflow: hidden;
-              text-overflow: ellipsis;
-              display: box;
-              box-orient: vertical;
-              /* 几行后显示不开省略 */
-              line-clamp: 2;
-            }
-            .news_info_date {
-              text-align: right;
-              font-size: 14px;
-              position: absolute;
-              right: 10px;
-              bottom: 10px;
-              color: #9c9c9c;
-            }
+          .new_1 {
+            background: url(../img/icon_newplayer.png) no-repeat;
+            background-size: 100% auto;
+          }
+          .new_2 {
+            background: url(../img/icon_newpeople.png) no-repeat;
+            background-size: 100% auto;
+          }
+        }
+      }
+
+      li.on {
+        background: url(../img/tab_on.jpg) no-repeat;
+        background-size: 100% auto;
+      }
+    }
+    .menu {
+      background-color: #101114;
+      padding: 20px;
+      .nav-guide {
+        li {
+          border-bottom: 1px dashed #171d27;
+          height: 80px;
+          font-size: 24px;
+          color: #e4e6e9;
+          line-height: 80px;
+          position: relative;
+          padding-left: 70px;
+          &:before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            display: block;
+            position: absolute;
+            left: 15px;
+            top: 50%;
+            margin-top: -0.035rem;
+            background: url(../img/icon_yellow_round.png) no-repeat;
+            background-size: 100% auto;
+          }
+          a {
+            width: 147px;
+            height: 57px;
+            font-size: 20px;
+            line-height: 57px;
+            text-align: center;
+            color: #fff;
+            display: block;
+            position: absolute;
+            top: 50%;
+            margin-top: -30px;
+            right: 10px;
+            background: #62532f;
           }
         }
       }
     }
   }
-  .btn_more {
-    display: block;
-    background: url(../img/btn_more.jpg) no-repeat;
-    width: 90%;
-    height: 80px;
-    line-height: 60px;
+}
+
+.main_bottom {
+  width: 100%;
+  height: 800px;
+  padding-top: 68px;
+  background: url(../img/main_bot.jpg) no-repeat;
+  background-size: 100% auto;
+
+  .code {
+    width: 286px;
+    height: 286px;
     margin: 0 auto;
-    font-size: 24px;
-    color: #bfc5cf;
-    background-size: 100% auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background: rgba(43, 55, 81, 0.83);
+    img {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+  }
+  p {
+    width: 100%;
+    height: 68px;
+    margin-bottom: 70px;
+    line-height: 35px;
     text-align: center;
+    color: #cdd0d9;
+    font-size: 18px;
+  }
+  span {
+    color: #566e95;
+    font-size: 18px;
+  }
+  .mb_txt {
+    height: 35px;
+    font-size: 24px;
+    margin-bottom: 24px;
+    position: relative;
+  }
+  p.mb_txt:before {
+    content: "";
+    width: 20px;
+    height: 13px;
+    margin-left: -11px;
+    background: url(../img/icon_jt.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -32px;
+    left: 50%;
   }
 
-  .silder_bar_bg {
-    position: fixed;
-    left: 0;
-    top: 0;
+  .mb_btn {
     width: 100%;
-    height: 100%;
-    z-index: 111;
-    background-color: rgba(0, 0, 0, 0.66);
-    display: none;
+    height:100px;
+    margin-bottom: 54px;
+    text-align: center;
+    a {
+      width: 86px;
+      height: 100px;
+      margin: 10px;
+      display: inline-block;
+      background-size: 100% 100%;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+    .wechat {
+      background: url(../img/share_wechat_1.png) no-repeat;
+      // background-size: 100% auto;
+    }
+    .weibo {
+      background: url(../img/share_wechat_2.png) no-repeat;
+    }
+    .baidu {
+      background: url(../img/share_wechat_3.png) no-repeat;
+    }
   }
+  .toTop {
+    width: 408px;
+    height: 44px;
+    margin: 0 auto;
+    line-height: 40px;
+    border: 1px solid #566e95;
+    text-align: center;
+    color: #566e95;
+    font-size: 18px;
+    display: block;
 }
+}
+
 .box {
   position: fixed;
   top: 0;
@@ -333,5 +397,27 @@ nav {
       color: #78a9fa;
       font-size: 20px;
     }
+  }
+}
+
+footer {
+  width: 100%;
+  padding: 30px 0 26px;
+  background: #000;
+  margin-top: -1px;
+  .logo_f {
+    width: 210px;
+    height: 38px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-image: url(../img/logo_f.png);
+    background-size: 100% 100%;
+  }
+  p {
+    width: 100%;
+    line-height: 20px;
+    font-size: 18px;
+    color: #ccd4df;
+    text-align: center;
   }
 }
