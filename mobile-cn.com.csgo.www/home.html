@@ -73,11 +73,15 @@
   </main>
   <footer></footer>
 </body>
-<!-- <script src="./lib/jQuery/jquery-1.12.4.js"></script> -->
+<script src="./lib/jQuery/jquery-1.12.4.js"></script>
 <script src="./lib/swiper/js/swiper.js"></script>
 <script>
 
-
+$(".go_top").on("click", function () {
+        $("body").animate({
+            scrollTop: 0
+        }, 500);
+    });
 
   var swiper = new Swiper('.swiper-container', {
     effect: 'coverflow',

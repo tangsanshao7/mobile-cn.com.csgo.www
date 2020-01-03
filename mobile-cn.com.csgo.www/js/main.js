@@ -1,4 +1,15 @@
+function delayURL(url, time) {
+  setTimeout("top.location.href = '" + url + "'", time);
+}
+
+
 $(document).ready(function () {
+  $(".toTop").on("click", function () {
+    $("body").animate({
+      scrollTop: 0
+    }, 500);
+  });
+
   $(".bar").on("click", function () {
     $(".box").css("display", "block");
     $(".silder_bar").css({
