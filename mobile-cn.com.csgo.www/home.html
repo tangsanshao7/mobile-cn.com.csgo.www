@@ -12,7 +12,7 @@
       content="CS,V社,csgo,CS:GO,FPS游戏,反恐精英,CSGO官网,CSGO国服,CSGO下载,CSGO预约,CSGO国服下载,csgo社区服,反恐精英全球攻势,csgo段位">
     <meta name="baidu-site-verification" content="p6aWSjHOMu">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="bookmark" href="/favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=640,user-scalable=no">
     <link rel="stylesheet" href="./lib/normalize/normalize.css">
     <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
@@ -77,11 +77,11 @@
 <script src="./lib/swiper/js/swiper.js"></script>
 <script>
 
-$(".go_top").on("click", function () {
-        $("body").animate({
-            scrollTop: 0
-        }, 500);
-    });
+  $(".go_top").on("click", function () {
+    $("html,body").animate({
+      scrollTop: 0
+    }, 500);
+  });
 
   var swiper = new Swiper('.swiper-container', {
     effect: 'coverflow',

@@ -5,7 +5,7 @@ function delayURL(url, time) {
 
 $(document).ready(function () {
   $(".toTop").on("click", function () {
-    $("body").animate({
+    $( "html,body").animate({
       scrollTop: 0
     }, 500);
   });
