@@ -1,0 +1,198 @@
+body {
+  background-color: #ccc;
+}
+.auto {
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+main {
+  height: 3109px;
+  background: url(../../img/ia_100000024.jpg) no-repeat 0 100px;
+  .main-top {
+    position: relative;
+    .button {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      width: 124px;
+      height: 41px;
+      text-indent: -9999px;
+    }
+    .main_1 {
+      position: absolute;
+      left: 275px;
+      top: 702px;
+      width: 90px;
+      height: 90px;
+      cursor: pointer;
+    }
+    .button_1 {
+      position: absolute;
+      left: 80px;
+      top: 816px;
+      width: 480px;
+      height: 70px;
+      .left {
+        background-position: 0 0;
+        float: left;
+        text-indent: -9999px;
+        background: url(../../../img/ia_100000028.png) no-repeat;
+        width: 180px;
+        height: 70px;
+      }
+      .right {
+        background-position: -350px 0;
+        float: right;
+        text-indent: -9999px;
+        background: url(../../../img/ia_100000028.png) no-repeat right top;
+        width: 180px;
+        height: 70px;
+      }
+    }
+    .down {
+      position: absolute;
+      width: 69px;
+      height: 39px;
+      top: 930px;
+      left: 50%;
+      margin-left: -35px;
+      -wekbit-animation: fy 0.2s infinite alternate;
+      animation: fy 0.2s infinite alternate;
+    }
+
+    @keyframes fy {
+      0% {
+        top: 925px;
+      }
+      100% {
+        top: 930px;
+      }
+    }
+  }
+  .lubo {
+    // padding-left: 54px;
+    position: relative;
+    height: 1130px;
+    margin-top: -150px;
+    ul {
+      position: relative;
+      height: 970px;
+      padding-bottom: 40px;
+      li {
+        transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);
+        z-index: 1;
+        transition-duration: 0ms;
+        width: 500px;
+        img {
+          width: 500px;
+          height: 970px;
+        }
+      }
+    }
+    .swiper-pagination {
+      bottom: 135px;
+      .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        background: #fff;
+        opacity: 1;
+      }
+      .swiper-pagination-bullet-active {
+        background: #9b388a;
+      }
+    }
+  }
+  .foot {
+    position: relative;
+    height: 818px;
+
+    margin-top: -100px;
+
+    .lunboTit {
+      text-align: center;
+      height: 80px;
+      img {
+        width: 319px;
+        height: 64px;
+      }
+    }
+    .csgo_code {
+      position: absolute;
+      top: 323px;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 259px;
+      height: 259px;
+      line-height: 259px;
+      vertical-align: middle;
+      text-align: center;
+      background-color: rgba(43, 55, 81, 0.83);
+      img {
+        max-width: 222px;
+        max-height: 222px;
+        vertical-align: middle;
+      }
+    }
+    .code_info {
+      position: absolute;
+      top: 604px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      line-height: 24px;
+      font-size: 18px;
+      color: #fff;
+      span {
+        color: #fcca30;
+      }
+    }
+    .share {
+      position: absolute;
+      left: 0;
+      top: 694px;
+      width: 100%;
+      text-align: center;
+      p {
+        margin-bottom: 20px;
+        font-weight: bold;
+        font-size: 24px;
+        color: #cdd0d9;
+      }
+      a {
+        display: inline-block;
+        width: 87px;
+        height: 99px;
+        margin: 0 9px;
+      }
+      .share_wechat {
+        background: url(../../img/share_wechat_1.png) no-repeat;
+        // background-size: 100% auto;
+      }
+      .share_sina {
+        background: url(../../img/share_wechat_2.png) no-repeat;
+      }
+      .share_baidu {
+        background: url(../../img/share_wechat_3.png) no-repeat;
+      }
+    }
+    .go_top {
+      position: absolute;
+      // top: 890px;
+      bottom: -140px;
+
+      width: 404px;
+      height: 40px;
+      line-height: 40px;
+      text-align: center;
+      border: 2px solid #556c92;
+      font-size: 18px;
+      color: #546a90;
+    }
+  }
+}
+footer {
+  width: 640px;
+  height: 80px;
+  background: url(../../img/bottom.jpg) no-repeat 0 0;
+  background-size: 100% auto;
+}

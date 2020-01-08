@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="由Valve开发，完美世界代理的第一人称射击团队竞技游戏CS:GO。全新裂网大行动重装突袭，新剧情玩法、新角色皮肤、新地图皮肤、新武器箱、新匕首，带你重拳出击！">
+    <meta name="keywords"
+      content="CS,V社,csgo,CS:GO,FPS游戏,反恐精英,CSGO官网,CSGO国服,CSGO下载,CSGO预约,CSGO国服下载,csgo社区服,反恐精英全球攻势,csgo段位">
+    <meta name="baidu-site-verification" content="p6aWSjHOMu">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=640,user-scalable=no">
+    <link rel="stylesheet" href="./lib/normalize/normalize.css">
+    <link rel="stylesheet" href="./lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="./css/less/home.css">
+    <title>CSGO官方网站 - 反恐精英:全球攻势 -&nbsp;裂网大行动 国服全新上线</title>
+  </head>
+
+<body>
+  <main>
+    <div class="main-top">
+      <img src="./img/main-top.jpg" alt="">
+      <a href="./main.html">
+        <img class="button" src="./img/main-button.png" alt="">
+      </a>
+      <img class="main_1" src="./img/main_1.png" alt="">
+      <div class="button_1">
+        <div class="left"></div>
+        <div class="right"></div>
+      </div>
+      <img src="./img/ia_100000001.png" alt="" class="down">
+    </div>
+    <div class="lubo swiper-container">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide"><img src="./img/lubo_1.jpg" alt=""></li>
+        <li class="swiper-slide"><img src="./img/lubo_2.jpg" alt=""></li>
+        <li class="swiper-slide"><img src="./img/lubo_3.jpg" alt=""></li>
+        <li class="swiper-slide"><img src="./img/lubo_4.jpg" alt=""></li>
+        <li class="swiper-slide"><img src="./img/lubo_5.jpg" alt=""></li>
+      </ul>
+      <div class="swiper-pagination swiper-pagination-bullets">
+        <span class="swiper-pagination-bullet   swiper-pagination-bullet-active"></span>
+        <span class="swiper-pagination-bullet"></span>
+        <span class="swiper-pagination-bullet"></span>
+        <span class="swiper-pagination-bullet"></span>
+        <span class="swiper-pagination-bullet"></span>
+      </div>
+    </div>
+    <div class="foot">
+      <div class="lunboTit">
+        <img src="./img/ia_100000020.png" alt="" class="top">
+      </div>
+      <div class="auto csgo_code">
+        <img src="./img/ia_100000021.jpg" alt="CSGO国服">
+      </div>
+      <div class="code_info">
+        <p>长按上方二维码保存至相册，</p>
+        <p>在微信中使用&nbsp;<span>扫一扫-相册-选择二维码图片</span>，添加关注</p>
+      </div>
+      <div class="share">
+        <p>一键分享给朋友</p>
+        <a href="javascript:void(0);" class="share_wechat"></a>
+        <a href="javascript:void(0);" class="share_sina"></a>
+        <a href="javascript:void(0);" target="_blank" class="share_baidu"></a>
+      </div>
+      <a href="javascript:void(0);" class="auto go_top">返回顶部</a>
+    </div>
+    <!-- <p>长按保存二维码，打开微信<br>“扫一扫”即可关注公众号</p> -->
+  </main>
+  <footer></footer>
+</body>
+<script src="./lib/jQuery/jquery-1.12.4.js"></script>
+<script src="./lib/swiper/js/swiper.js"></script>
+<script>
+
+  $(".go_top").on("click", function () {
+    $("html,body").animate({
+      scrollTop: 0
+    }, 500);
+  });
+
+  var swiper = new Swiper('.swiper-container', {
+    effect: 'coverflow',
+    loop: true,
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    type: 'bullets',
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+</script>
+
+</html>
