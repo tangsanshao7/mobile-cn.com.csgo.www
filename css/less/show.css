@@ -61,7 +61,7 @@ nav {
   z-index: 20;
 }
 nav .bar {
-  background: url(../../../img/icon_leftbar.png) no-repeat;
+  background: url(../../img/icon_leftbar.png) no-repeat;
   width: 30px;
   height: 20px;
   position: absolute;
@@ -74,11 +74,11 @@ nav span {
   height: 0.255rem;
   display: block;
   margin: 0.0575rem auto;
-  background: url(../../../img/logo.png) no-repeat center center;
+  background: url(../../img/logo.png) no-repeat center center;
   background-size: 100% auto;
 }
 nav .home {
-  background: url(../../../img/icon_home.png) no-repeat;
+  background: url(../../img/icon_home.png) no-repeat;
   width: 30px;
   height: 30px;
   position: absolute;
@@ -186,7 +186,7 @@ nav .home {
 }
 .container .btn_more {
   display: block;
-  background: url(../../../img/btn_more.jpg) no-repeat;
+  background: url(../../img/btn_more.jpg) no-repeat;
   width: 90%;
   height: 80px;
   line-height: 60px;
@@ -238,7 +238,7 @@ nav .home {
   z-index: 111;
 }
 .silder_bar .close_silder_bar {
-  background: url(../../../img/close_btn.png) no-repeat;
+  background: url(../../img/close_btn.png) no-repeat;
   width: 60px;
   height: 60px;
   position: absolute;
@@ -287,7 +287,7 @@ nav .home {
 }
 .btn_code {
   display: block;
-  background: url(../../../img/btn_code.jpg) no-repeat;
+  background: url(../../img/btn_code.jpg) no-repeat;
   width: 90%;
   height: 80px;
   margin: 20px auto;
@@ -304,7 +304,7 @@ nav .home {
   display: none;
 }
 .S_pop_code .close_pop_code {
-  background: url(../../../img/close_btn.png) no-repeat;
+  background: url(../../img/close_btn.png) no-repeat;
   width: 60px;
   height: 60px;
   position: absolute;
@@ -326,7 +326,7 @@ nav .home {
   font-weight: normal;
 }
 .S_pop_code .pop_code_cont .code_box {
-  background: url(../../../img/code_bg.png) no-repeat center top;
+  background: url(../../img/code_bg.png) no-repeat center top;
   width: 100%;
   height: 350px;
   margin: 40px 0;
@@ -336,7 +336,7 @@ nav .home {
   background-size: 100% auto;
 }
 .S_pop_code .pop_code_cont .code_box .code_img {
-  background: url(../../../img/code_ing.png) no-repeat;
+  background: url(../../img/code_ing.png) no-repeat;
   width: 260px;
   height: 260px;
   margin: 0 auto;
@@ -378,7 +378,7 @@ nav .home {
 .arrow {
   width: 48px;
   height: 24px;
-  background: url(../../../img/arrow_icon.png) no-repeat;
+  background: url(../../img/arrow_icon.png) no-repeat;
   background-size: 100% 100%;
   position: absolute;
   bottom: 66px;
@@ -393,14 +393,14 @@ nav .home {
 .logo {
   width: 252px;
   height: 104px;
-  background: url(../../../img/csgo_logo.png) no-repeat;
+  background: url(../../img/csgo_logo.png) no-repeat;
   background-size: 100% 100%;
   margin: 0 auto;
 }
 .loading_box {
   width: 100%;
   height: 100%;
-  background: url(../../../img/bg01.jpg) no-repeat;
+  background: url(../../img/bg01.jpg) no-repeat;
   background-size: cover;
   background-color: #030407;
   position: relative;
@@ -442,7 +442,7 @@ nav .home {
   display: none;
   width: 222px;
   height: 62px;
-  background: url(../../../img/enter_btn.png) no-repeat;
+  background: url(../../img/enter_btn.png) no-repeat;
   background-size: 100% 100%;
   position: absolute;
   bottom: 200px;
@@ -536,7 +536,7 @@ nav .home {
 .bg2 {
   width: 100%;
   height: 1136px;
-  background: url(../../../img/bg02.jpg) no-repeat;
+  background: url(../../img/bg02.jpg) no-repeat;
   background-size: cover;
   background-color: #030407;
   position: relative;
@@ -548,7 +548,7 @@ nav .home {
   height: 86px;
   margin: 0 auto;
   margin-bottom: 80px;
-  background: url(../../../img/ele01_tit.png) no-repeat;
+  background: url(../../img/ele01_tit.png) no-repeat;
   background-size: 100% 100%;
 }
 .ele_P01 {
@@ -568,7 +568,7 @@ nav .home {
   display: inline-block;
   width: 17px;
   height: 17px;
-  background: url(../../../img/dian_icon.png) no-repeat;
+  background: url(../../img/dian_icon.png) no-repeat;
   background-size: 100% 100%;
   margin-right: 28px;
 }
@@ -576,7 +576,7 @@ nav .home {
   width: 538px;
   height: 366px;
   margin: 0 auto;
-  background: url(../../../img/duibi.png) no-repeat;
+  background: url(../../img/duibi.png) no-repeat;
   background-size: 100% 100%;
 }
 .prompt_bg,
@@ -602,7 +602,7 @@ nav .home {
 .horizontal2 {
   width: 170px;
   height: 182px;
-  background: url(../../../img/heng.png) no-repeat;
+  background: url(../../img/heng.png) no-repeat;
   background-size: 100% 100%;
   position: absolute;
   top: 50%;
@@ -628,7 +628,7 @@ nav .home {
   right: 0;
   width: 94px;
   height: 88px;
-  background: url(../../../img/close_btn.png) no-repeat;
+  background: url(../../img/close_btn.png) no-repeat;
   background-size: 100% 100%;
   z-index: 50;
 }
@@ -644,7 +644,7 @@ nav .home {
   width: 100%;
   height: 1136px;
   z-index: 10;
-  background: url(../../../img/drag_01_1.jpg) no-repeat;
+  background: url(../../img/drag_01_1.jpg) no-repeat;
   background-size: cover;
 }
 .img_box .right_img {
@@ -654,7 +654,7 @@ nav .home {
   width: 50%;
   height: 1136px;
   z-index: 20;
-  background: url(../../../img/drag_01_2.jpg) no-repeat;
+  background: url(../../img/drag_01_2.jpg) no-repeat;
   background-size: cover;
 }
 .page {
@@ -678,7 +678,7 @@ nav .home {
 .bg3 {
   width: 100%;
   height: 1136px;
-  background: url(../../../img/bg03.jpg) no-repeat;
+  background: url(../../img/bg03.jpg) no-repeat;
   background-size: cover;
   background-color: #030407;
   position: relative;
@@ -690,7 +690,7 @@ nav .home {
   height: 102px;
   margin: 0 auto;
   margin-bottom: 50px;
-  background: url(../../../img/ele02_tit.png) no-repeat;
+  background: url(../../img/ele02_tit.png) no-repeat;
   background-size: 100% 100%;
 }
 .badge {
@@ -708,7 +708,7 @@ nav .home {
 .line {
   width: 7px;
   height: 135px;
-  background: url(../../../img/line.png) no-repeat;
+  background: url(../../img/line.png) no-repeat;
   background-size: 100% 100%;
   position: absolute;
   top: 0;
@@ -724,7 +724,7 @@ nav .home {
 .bg4 {
   width: 100%;
   height: 1136px;
-  background: url(../../../img/bg04.jpg) no-repeat;
+  background: url(../../img/bg04.jpg) no-repeat;
   background-size: cover;
   background-color: #030407;
   position: relative;
@@ -736,7 +736,7 @@ nav .home {
   height: 98px;
   margin: 0 auto;
   margin-bottom: 50px;
-  background: url(../../../img/ele03_tit.png) no-repeat;
+  background: url(../../img/ele03_tit.png) no-repeat;
   background-size: 100% 100%;
 }
 .start_ty {
@@ -827,35 +827,35 @@ nav .home {
   z-index: 2;
 }
 .video_step li.step_01 {
-  background: url(../../../img/step_01.jpg) no-repeat;
+  background: url(../../img/step_01.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .video_step li.step_02 {
-  background: url(../../../img/step_02.jpg) no-repeat;
+  background: url(../../img/step_02.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .video_step li.step_03 {
-  background: url(../../../img/step_03.jpg) no-repeat;
+  background: url(../../img/step_03.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .video_step li.step_04 {
-  background: url(../../../img/step_04.jpg) no-repeat;
+  background: url(../../img/step_04.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .video_step li.step_05 {
-  background: url(../../../img/step_05.jpg) no-repeat;
+  background: url(../../img/step_05.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .video_step li.step_06 {
-  background: url(../../../img/step_06.jpg) no-repeat;
+  background: url(../../img/step_06.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .video_step li.step_07 {
-  background: url(../../../img/step_07.jpg) no-repeat;
+  background: url(../../img/step_07.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .video_step li.step_08 {
-  background: url(../../../img/step_08.jpg) no-repeat;
+  background: url(../../img/step_08.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .video_step li.on {
@@ -876,14 +876,14 @@ nav .home {
   position: absolute;
   top: 20px;
   left: 20px;
-  background: url(../../../img/step_notice.png) no-repeat;
+  background: url(../../img/step_notice.png) no-repeat;
   background-size: 100% 100%;
 }
 /*第四页枪*/
 .bg5 {
   width: 100%;
   height: 1136px;
-  background: url(../../../img/bg05.jpg) no-repeat;
+  background: url(../../img/bg05.jpg) no-repeat;
   background-size: cover;
   background-color: #030407;
   position: relative;
@@ -895,7 +895,7 @@ nav .home {
   height: 94px;
   margin: 0 auto;
   margin-bottom: 110px;
-  background: url(../../../img/title_04.png) no-repeat;
+  background: url(../../img/title_04.png) no-repeat;
   background-size: 100% 100%;
 }
 .lunbo2 {
@@ -924,7 +924,7 @@ nav .home {
 .yindao_icon {
   width: 174px;
   height: 14px;
-  background: url(../../../img/yindao_icon.png) no-repeat;
+  background: url(../../img/yindao_icon.png) no-repeat;
   background-size: 100% 100%;
   position: absolute;
   bottom: 300px;
@@ -934,7 +934,7 @@ nav .home {
 .ele04_p1 {
   width: 520px;
   height: 72px;
-  background: url(../../../img/ele04_p1.png) no-repeat;
+  background: url(../../img/ele04_p1.png) no-repeat;
   background-size: 100% 100%;
   position: absolute;
   bottom: 260px;
@@ -944,7 +944,7 @@ nav .home {
 .ele04_p2 {
   width: 520px;
   height: 72px;
-  background: url(../../../img/ele04_p2.png) no-repeat;
+  background: url(../../img/ele04_p2.png) no-repeat;
   background-size: 100% 100%;
   position: absolute;
   bottom: 160px;
@@ -955,7 +955,7 @@ nav .home {
 .bg6 {
   width: 100%;
   height: 1136px;
-  background: url(../../../img/bg06.jpg) no-repeat;
+  background: url(../../img/bg06.jpg) no-repeat;
   background-size: cover;
   background-color: #030407;
   position: relative;
@@ -967,7 +967,7 @@ nav .home {
   height: 94px;
   margin: 0 auto;
   margin-bottom: 110px;
-  background: url(../../../img/title_05.png) no-repeat;
+  background: url(../../img/title_05.png) no-repeat;
   background-size: 100% 100%;
 }
 .pop_pattern {
@@ -976,7 +976,7 @@ nav .home {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../../../img/opa_008.png) repeat;
+  background: url(../../img/opa_008.png) repeat;
   display: none;
   z-index: 50;
 }
@@ -990,7 +990,7 @@ nav .home {
   top: 25%;
   left: 50%;
   margin-left: -296px;
-  background: url(../../../img/bg_popup.jpg) no-repeat center center;
+  background: url(../../img/bg_popup.jpg) no-repeat center center;
   background-size: 100% 100%;
 }
 .pop_cont h3 {
@@ -1049,46 +1049,46 @@ nav .home {
   margin-left: -94px;
 }
 .card01 {
-  background: url(../../../img/card01.jpg) no-repeat;
+  background: url(../../img/card01.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .card02 {
-  background: url(../../../img/card02.jpg) no-repeat;
+  background: url(../../img/card02.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .card03 {
-  background: url(../../../img/card03.jpg) no-repeat;
+  background: url(../../img/card03.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .card04 {
-  background: url(../../../img/card04.jpg) no-repeat;
+  background: url(../../img/card04.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .card05 {
-  background: url(../../../img/card05.jpg) no-repeat;
+  background: url(../../img/card05.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .card06 {
-  background: url(../../../img/card06.jpg) no-repeat;
+  background: url(../../img/card06.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .card07 {
-  background: url(../../../img/card07.jpg) y no-repeat;
+  background: url(../../img/card07.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .card08 {
-  background: url(../../../img/card08.jpg) no-repeat;
+  background: url(../../img/card08.jpg) no-repeat;
   background-size: 100% 100%;
 }
 .card09 {
-  background: url(../../../img/card09.jpg) no-repeat;
+  background: url(../../img/card09.jpg) no-repeat;
   background-size: 100% 100%;
 }
 /*第六页*/
 .bg7 {
   width: 100%;
   height: 1136px;
-  background: url(../../../img/bg07.jpg) no-repeat;
+  background: url(../../img/bg07.jpg) no-repeat;
   background-size: cover;
   background-color: #030407;
   position: relative;
@@ -1100,7 +1100,7 @@ nav .home {
   height: 96px;
   margin: 0 auto;
   margin-bottom: 110px;
-  background: url(../../../img/title_06.png) no-repeat;
+  background: url(../../img/title_06.png) no-repeat;
   background-size: 100% 100%;
 }
 .gun_video {
@@ -1116,27 +1116,27 @@ nav .home {
   margin-bottom: 14px;
 }
 .gun_video li.gun_01 {
-  background-image: url(../../../img/gun_01.jpg);
+  background-image: url(../../img/gun_01.jpg);
   background-size: 100% 100%;
 }
 .gun_video li.gun_02 {
-  background-image: url(../../../img/gun_02.jpg);
+  background-image: url(../../img/gun_02.jpg);
   background-size: 100% 100%;
 }
 .gun_video li.gun_03 {
-  background-image: url(../../../img/gun_03.jpg);
+  background-image: url(../../img/gun_03.jpg);
   background-size: 100% 100%;
 }
 .gun_video li.gun_04 {
-  background-image: url(../../../img/gun_04.jpg);
+  background-image: url(../../img/gun_04.jpg);
   background-size: 100% 100%;
 }
 .gun_video li.gun_05 {
-  background-image: url(../../../img/gun_05.jpg);
+  background-image: url(../../img/gun_05.jpg);
   background-size: 100% 100%;
 }
 .gun_video li.gun_06 {
-  background-image: url(../../../img/gun_06.jpg);
+  background-image: url(../../img/gun_06.jpg);
   background-size: 100% 100%;
 }
 .video_s6 {
